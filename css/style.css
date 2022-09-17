@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+
+@font-face{
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.woff2") format("woff2"), 
+    url("../fonts/Lato-Regular.woff") format(woff);
+    font-display :swap;  
+    font-style: normal;
+}
+@font-face{
+    font-family: "Lato";
+   src: url("../fonts/Lato-Bold.woff2") format("woff2"), 
+   url("../fonts/Lato-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight:700;
+    font-style: normal;}
+
+ @font-face{
+    font-family: "Lato";
+     src: url("../fonts/Lato-Black.woff2") format("woff2"), 
+   url("../fonts/Lato-Black.woff") format("woff");
+    font-display: swap;
+   font-weight: 900;
+     font-style: normal;}
+
+     @font-face{
+        font-family: "Montserrat";
+        src: url("../Montserrat-Medium.woff2") format("woff2"), 
+        url("../fonts/Montserrat-Medium.woff") format("woff");
+        font-display: swap;
+        font-weight: 500;
+        font-style: normal;}
+
+@font-face{
+    font-family: "Montserrat";
+   src: url("../fonts/Montserrat-Bold.wof2") format("wof2"), 
+   url("../fonts/Montserrat-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+    font-style: normal;}
+
+    @font-face{
+        font-family: "Montserrat";
+       src: url("../fonts/Montserrat-Black.woff2") format("woff2"), 
+       url("../fonts/Montserrat-Black.woff") format("woff");
+       font-display: swap;
+       font-weight: 900;
+
+
+        font-style: normal;}
+#block{ 
+    font-family: Montserrat ;
+    font-style: oblique;
+    font-weight: 700; 
+    margin: 10px;
+    color:mediumblue;
+    background-color:rgba(100, 148, 237, 0.439);
+}   
+
+    
+div.text{   
+    font-family:Lato ;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: underline;
+color:dodgerblue;
+padding-left: 10px
+}
+.text{
+    text-shadow: 2px 4px  5pt red;
+}
+div.lesson2-blok{
+    font-family:Montserrat ;
+    font-style:normal;
+    font-weight: 900; 
+    padding: 22pt 22px 22px 22px;
+    color:black;
+    background-color:rgba(172, 255, 47, 0.502);
+} 
+   div.info {
+    font-family:Lato ;
+    font-style:oblique;
+    font-weight:700 ;
+    color:beige;
+   text-decoration: underline;
+   text-transform: capitalize;
+   background-color:rgba(0, 0, 0, 0.657);
+   padding: 20px ;
+   margin: 30px ;
+   }
+   div.img{
+    font-family:Montserrat;
+    font-style:normal;
+    font-weight:500 ;
+    line-height:1 ;
+    text-decoration:line-through;
+   padding: 20px 20px 20px 20pt;
+   color:darkorange;
+     background-color:rgba(0, 0, 0, 0.847);
+     }
+    
